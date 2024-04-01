@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../form/font/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image-container {
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+}
+
+.image-info {
+    color: white;
+}
+
+a {
+    text-decoration-line: underline;
+    color: white;
+}
+
+.form-container {
+    width: 70vw;
+}
