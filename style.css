@@ -1,6 +1,6 @@
 @font-face {
     font-family: Norse-Bold;
-    src: url(../form/font/Norse-Bold.otf);
+    src: url(./font/Norse-Bold.otf);
 }
 
 body {
@@ -25,7 +25,13 @@ body {
     color: white;
 }
 
-a {
+.odin-logo {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.image-info a {
     text-decoration-line: underline;
     color: white;
 }
@@ -40,29 +46,18 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-<<<<<<< HEAD
     height: 35vh;
-=======
-    height: 33vh;
->>>>>>> refs/remotes/origin/main
     background-color: #EFEFEF;
 }
 
 .registration {
-<<<<<<< HEAD
-    height: 30vh;
-=======
-    height: 33vh;
->>>>>>> refs/remotes/origin/main
+    height: 25vh;
     background-color: white;
+    align-items: center;
 }
 
 .submission {
-<<<<<<< HEAD
-    height: 35vh;
-=======
-    height: 33vh;
->>>>>>> refs/remotes/origin/main
+    height: 40vh;
     background-color: #EFEFEF;
 }
 
@@ -74,7 +69,6 @@ h2 {
 .main-form {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -94,23 +88,76 @@ h2 {
 .form-title {
     margin-left: 50px;
     margin-top: 30px;
+    font-weight: 500;
 }
 
 label {
     display: inline-block;
     width: 200px;
+    font-size: medium;
+    font-weight: 400;
 }
 
 input {
+    height: 25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
     width: 70%;
-    height: 20px;
-=======
 }
 
-.form-details {
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.submit-button {
+    background-color: #596D48;
+    border: 1px solid #596D48;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 45px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.account-link {
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.account-link a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.logo-transparent {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
->>>>>>> refs/remotes/origin/main
+    flex-direction: row;
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5.5vh;
+}
+
+.logo-transparent h1 {
+    font-family: Norse-Bold;
+    font-size: 100px;
+}
+
+.image-info {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
