@@ -13,7 +13,6 @@ body {
     flex-direction: row;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
 }
 
 .image-container {
@@ -40,17 +39,17 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 33vh;
+    height: 35vh;
     background-color: #EFEFEF;
 }
 
 .registration {
-    height: 33vh;
+    height: 30vh;
     background-color: white;
 }
 
 .submission {
-    height: 33vh;
+    height: 35vh;
     background-color: #EFEFEF;
 }
 
@@ -62,11 +61,33 @@ h2 {
 .main-form {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;;
 }
 
 .form-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    padding: 10px;
+}
+
+.form-title {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input {
+    width: 70%;
+    height: 20px;
 }
