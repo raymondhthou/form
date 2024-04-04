@@ -161,3 +161,9 @@ input:invalid {
     justify-content: center;
     align-items: flex-end;
 }
+
+#error {
+    color: red;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
